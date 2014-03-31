@@ -118,7 +118,6 @@ BackboneTracker = ((Backbone, config) ->
     ## mixpanel. Requires an event `name`. Optionally takes an
     ## event `data` object or a function that makes one.
     _sendTrackEvent = (eventName, eventData={}) ->
-        debugger
         config.trackEvent(eventName, eventData)
 
 )
