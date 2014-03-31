@@ -1,0 +1,20 @@
+{
+  "name": "backbone-tracker",
+  "version": "0.0.1",
+  "description": "Mixes declarative mixpanel tracking into Backbone.View",
+  "main": "backbone-tracker.js",
+  "dependencies": { },
+  "devDependencies": {},
+  "scripts": {
+    "test": "coffee test.coffee"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:abhoopathy/backbone-tracker.git"
+  },
+  "author": "Aneesh Bhoopathy",
+  "license": "BSD",
+  "bugs": {
+    "url": "https://github.com/abhoopathy/ab.js/issues"
+  }
+}
