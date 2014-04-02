@@ -35,6 +35,9 @@
 
 BackboneTracker = ((Backbone, config) ->
 
+    throw 'No config parameter' unless config?
+    throw 'Config needs trackEvent function' unless config.trackEvent?
+
     oldDelegateEvents = Backbone.View.prototype.delegateEvents
     delegateEventSplitter = /^(\S+)\s*(.*)$/
 
