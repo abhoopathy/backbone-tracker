@@ -1,12 +1,13 @@
 backbone-tracker
 =====
 
-backbone-tracker mixes declarative user event tracking into Backbone.View.
+### backbone-tracker mixes declarative user event tracking into Backbone.View. AMD & CommonJS friendly. I think.
 
 ```
 bower install backbone-tracker
 ```
-AMD & CommonJS friendly. First, specify a callback for tracking events app-wide. Specify how actions hook up to your analytics API (e.g. Mixpanel or Google analytics)
+
+First, specify a callback for tracking events app-wide. Specify how actions hook up to your analytics API (e.g. Mixpanel or Google analytics)
 
 ```javascript
 BackboneTracker(Backbone, {
@@ -103,3 +104,7 @@ var MainView = new Backbone.View.extend({
 
 });
 ```
+
+MIT LICENSE
+
+Inspired by [backbone.mousetrap](https://github.com/elasticsales/backbone.mousetrap).
