@@ -1,11 +1,9 @@
 backbone-tracker
 =====
 
-### backbone-tracker mixes declarative user event tracking into Backbone.View. AMD & CommonJS friendly. I think.
+backbone-tracker mixes declarative user event tracking into Backbone.View. AMD & CommonJS friendly. I think.
 
-```
-bower install backbone-tracker
-```
+Get it by `bower install backbone-tracker`, or [download raw](https://raw.githubusercontent.com/abhoopathy/backbone-tracker/master/backbone-tracker.js).
 
 First, specify a callback for tracking events app-wide. Specify how actions hook up to your analytics API (e.g. Mixpanel or Google analytics)
 
